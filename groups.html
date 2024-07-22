@@ -1,0 +1,177 @@
+<link rel="stylesheet" href="style.css">
+<div class="contact">
+    <div class="nav">
+        <nav class="navbar">
+            <div class="brand-title">Tech Seven.</div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="groups.html">Groups</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+</body>
+</html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Groups and Message</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #1e1e1e;
+            color: #fff;
+        }
+
+        .header {
+            background: url('abstract-vector-black-orange-background-with-shadows-light-effects_446392-496.jpg.avif') no-repeat center center/cover;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .group-card, .message-card {
+            background: #333;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        .group-card h2, .message-card h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+            color: #f39c12;
+        }
+
+        .group-card p, .message-card p {
+            margin: 5px 0;
+            color: #ddd;
+        }
+
+        .group-card .join-button, .message-card .send-button {
+            background: #f39c12;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .group-card .join-button:hover, .message-card .send-button:hover {
+            background: #e67e22;
+        }
+
+        .message-card input, .message-card textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        @media (min-width: 600px) {
+            .group-card, .message-card {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .group-card .details, .message-card .details {
+                width: 70%;
+            }
+
+            .group-card .join-button, .message-card .send-button {
+                width: 20%;
+                margin-left: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Join Groups and Message</h1>
+    </div>
+
+    <div class="container">
+        <div class="group-card">
+            <div class="details">
+                <h2>Fortnite</h2>
+                <p>Description: Join this group to connect with other gaming enthusiasts, discuss the latest games, and participate in online events.</p>
+            </div>
+            <button class="join-button">Join Group</button>
+        </div>
+
+        <div class="group-card">
+            <div class="details">
+                <h2>FFA</h2>
+                <p>Description: A group for indie game developers to share ideas, collaborate on projects, and get feedback on their games.</p>
+            </div>
+            <button class="join-button">Join Group</button>
+        </div>
+
+        <div class="group-card">
+            <div class="details">
+                <h2>Community</h2>
+                <p>Description: Connect with other e-sports fans, discuss tournaments, and share tips and strategies.</p>
+            </div>
+            <button class="join-button">Join Group</button>
+        </div>
+
+        <!-- Add more groups as needed -->
+
+        <div class="message-card">
+            <div class="details">
+                <h2>Send a Message</h2>
+                <form id="messageForm">
+                    <input type="text" id="username" name="username" placeholder="Your Name" required>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="send-button">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+        <div class="nav">
+            <nav class="navbar">
+                <div class="brand-title">Tech Seven.</div>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="groups.html">Groups</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+</body>
+</html>
+
+
